@@ -1,4 +1,4 @@
-
+collection = ['ruby', 'javascript', 'python', 'objective-c']
 def my_collect(array)
   if block_given?
     c = []

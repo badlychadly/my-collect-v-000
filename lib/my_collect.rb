@@ -12,5 +12,5 @@ def my_collect(array)
   end
 end
 my_collect(array) do |name|
-puts  name.split(" ")
+return  name.split(" ")
 end

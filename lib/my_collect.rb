@@ -11,3 +11,5 @@ def my_collect(array)
   else puts "Missing Block"
   end
 end
+
+my _collect(languages) { |l| l.upcase}

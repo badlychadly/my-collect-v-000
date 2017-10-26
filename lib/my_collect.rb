@@ -12,4 +12,4 @@ def my_collect(array)
   end
 end
 
-my _collect(languages) { |l| l.upcase}
+my _collect(collection) { |l| l.upcase}

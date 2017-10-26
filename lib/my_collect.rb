@@ -1,4 +1,4 @@
-
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(array)
   if block_given?
     c = []
@@ -11,5 +11,6 @@ def my_collect(array)
   else puts "Missing Block"
   end
 end
-
-
+my_collect(array) do |name|
+  name.split(" ").first
+end

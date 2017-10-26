@@ -8,5 +8,6 @@ def my_collect(array)
       i += 1
     end
     c
+  else puts "Missing Block"
   end
 end

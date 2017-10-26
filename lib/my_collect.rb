@@ -1,4 +1,4 @@
-collection = ['ruby', 'javascript', 'python', 'objective-c']
+
 def my_collect(array)
   if block_given?
     c = []
@@ -12,4 +12,4 @@ def my_collect(array)
   end
 end
 
-my_collect(collection) { |l| puts l.upcase}
+

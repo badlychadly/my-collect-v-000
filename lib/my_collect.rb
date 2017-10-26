@@ -11,4 +11,3 @@ def my_collect(array)
   else puts "Missing Block"
   end
 end
-
